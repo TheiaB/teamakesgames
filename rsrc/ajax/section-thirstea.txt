@@ -1,0 +1,24 @@
+				<h2>Thirstea</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/thirstea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thirstea_1.webp" alt="Multiple minimalist doorways stacked behind each other."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/thirstea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thirstea_2.webp" alt="Grey buildings stretch into the colorless sky, some dark, some lit windows."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/thirstea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thirstea_3.webp" alt="A skewed futuristic corridor with a dark door at the end."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/thirstea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thirstea_4.webp" alt="A corridor with three doorways on the side."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/thirstea_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thirstea_5.webp" alt="A long walkway leads to an elevated doorframe with a staircase leading up to it."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>An abstract brutalist platformer with lots of blades. Created for the Map Labs competition <a target="_blank" href="https://www.moddb.com/mods/map-labs/downloads/atom-1-blade">Blade</a> in a single day.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a> <a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1784893138" class="sec">or for Portal 2</a>
+				<details>
+					<summary>&copy; Theia Bähr 2019</summary>
+					<p class="tags">platformer, brutalist, minimalist, jump-n-run,  liminal space, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#diversitea" class="left" title="previous project">Diversitea</a>
+					<a href="#whatisagame" class="right" title="next project">What is a game? - An essay</a>
+				</div>

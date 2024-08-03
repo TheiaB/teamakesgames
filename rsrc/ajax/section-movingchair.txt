@@ -1,0 +1,26 @@
+				<h2>do NOT touch a moving chair</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/movingchair_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/movingchair_1.webp" alt="A courtyard shrouded in blue fog with red glowing windows. Wires hang from the top of the building. It's getting dark."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/movingchair_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/movingchair_2.webp" alt="A surreal corridor with an odd blue glow and a huge black circular hole above. An office chair sits awkwardly on the side."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/movingchair_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/movingchair_3.webp" alt="A dreamy empty room filled with blue beams, a circular pillar sticks into a circular hole at the ceiling."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/movingchair_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/movingchair_4.webp" alt="A distorted backrooms corridor, a buzzing fluorescent light fills the room with a dim yellow. A wall opens to a blue glow."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<blockquote>
+					<p>If you're not careful and you noclip out of reality in the wrong areas, you'll end up in the Backrooms. So don't touch glitching objects!</p>
+				</blockquote>
+				<p>The backrooms using Portal 1s empty offices. Very liminal space, much Kenopsia</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a> <a target="_blank" href="https://www.youtube.com/watch?v=bRjx9Er9CiM">Watch here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2022</summary>
+					<p class="tags">surreal, atmospheric, experimental, backrooms,  liminal space, psychological horror, glitch, meta, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#instabilitea" class="left" title="previous project">(in)stabilitea</a>
+					<a href="#redolence" class="right" title="next project">Redolence</a>
+				</div>

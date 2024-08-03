@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>tea makes games - experimental indie games</title>
+		<link href="rsrc/css/base.min.css?v=40730" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content= "width=device-width">
+		<!-- icon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#aa88ff">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="msapplication-TileColor" content="#131415">
+		<!-- meta -->
+		<meta name="description" content="Theia “Tea” Bähr is an indie game designer and developer from Germany, making small experimental games. Her conceptual experiences are calm and contemplative.">
+		<meta name="keywords" content="short games, art games, walking simulator, source mods, source mapping, game developer, game designer">
+		<meta name="theme-color" content="#131415">
+		<meta content="NoAI, noimageai, index" name="robots">
+		<meta property="thumbnail" content="https://teamakes.games/rsrc/img/tea_photo.jpeg">
+		<!-- og -->
+		<meta property="og:title" content="tea makes games">
+		<meta property="og:type" content="profile">
+		<meta property="og:description" content="Theia “Tea” Bähr is an indie game designer and developer from Germany, making small experimental games.">
+		<meta property="og:url" content="https://teamakes.games">
+		<meta property="og:image" content="https://teamakes.games/og-image.png">
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1600">
+		<meta property="og:image:height" content="800">
+		<meta property="profile:first_name" content="Theia">
+		<meta property="profile:last_name" content="Bähr">
+		<meta property="profile:gender" content="female">
+		<meta property="profile:username" content="teamakesgames">
+		<!--
+		<PageMap>
+			<DataObject type="thumbnail">
+				<Attribute name="src" value="https://teamakes.games/rsrc/img/tea_photo.jpeg"/>
+				<Attribute name="width" value="256"/>
+				<Attribute name="height" value="256"/>
+			</DataObject>
+		</PageMap>
+		-->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": ["Organization", "EntertainmentBusiness"],
+			"image": "https://teamakes.games/rsrc/img/tea_photo.jpeg",
+			"url": "https://teamakes.games/",
+			"sameAs": ["https://teamakesgames.itch.io/", "https://store.steampowered.com/search/?developer=teamakes.games"],
+			"logo": "https://teamakes.games/teamakesgames-logo.webp",
+			"name": "Theia Bähr, Games",
+			"description": "Theia Bähr is an indie game designer and developer from Germany, making small calm and contemplative experimental games.",
+			"email": "tea@teamakes.games",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Postfach 12 07",
+				"addressLocality": "Germany",
+				"addressCountry": "DE",
+				"addressRegion": "Rhineland-Palatinate",
+				"postalCode": "54202"
+			},
+			"contactPoint" : [{
+				"@type" : "ContactPoint",
+				"email" : "tea@teamakes.games",
+				"contactType" : "customer service"
+			}]
+		}
+		</script>		
+	</head>
+	
+	<body>
+		<header>
+			<div>
+				<nav><a class="current" href="../" title="my game portfolio">GAMES</a><a href="../and" title="my design portfolio">AND</a><a href="../tea" title="get to know me">TEA</a></nav>
+				<h1 class="main-title" translate="no">tea makes games</h1>
+				<hr>
+				<div class="circle-img">
+					<img src="rsrc/img/tea_overlay.gif" width="256" height="256" alt="vibrant color flashes.">
+					<img src="rsrc/img/tea_photo.webp" width="256" height="256" alt="Photo of Theia, washed in blue purple light, with her hair flickering in vibrant hues.">
+				</div>
+				<p>Theia “Tea” Bähr is a game designer and media artist from Germany in her early 20s. She is known for experimental artistic levels. Most of her games are free.</p>
+				<div class="socials">
+					<div onclick="navigator.clipboard.writeText('tea' + '@' + window.location.hostname);toast('copied to clipboard!');return false" class="m" title="email">
+						<div><img src="rsrc/img/icon-mail.png" alt="E-Mail Icon"/></div>
+						<span><img src="rsrc/img/m.svg" id="email" alt="tea at tea makes dot games"/></span>
+					</div>
+					<div href="javascript:void(0)" onclick="navigator.clipboard.writeText('tea.theia');toast('copied to clipboard!');return false" title="discord">
+						<div><img src="rsrc/img/icon-discord.png" alt="Discord Icon"/></div>
+						<span>tea.theia</span>
+					</div>
+					<a target="_blank" href="https://www.instagram.com/teamakes.games/" title="instagram">
+						<div><img src="rsrc/img/icon-insta.png" alt="Instagram Icon"/></div>
+						<span>insta</span>
+					</a>
+					<a target="_blank" href="https://teamakesgames.itch.io/" title="itch.io">
+						<div><img src="rsrc/img/icon-itch.png" alt="itch.io Icon"/></div>
+						<span>itch</span>
+					</a>
+					<a target="_blank" href="https://paypal.me/1teab" title="paypal">
+						<div><img src="rsrc/img/icon-paypal.png" alt="paypal icon"/></div>
+						<span>paypal</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			
+			<section id="projects">
+				<div class="project-grid acc-nav">
+					<a href="#tee"><img title="The Elision Effect" alt="The Elision Effect Pixelart: A potted plant in a liminal office." src="rsrc/img/px-elisioneffect.png"></a>
+					
+					<a href="#donttalk"><img title="Don't talk about it" alt="Don't talk about it Pixelart: A guy staring in a cracked mirror, censored eyes." src="rsrc/img/px-donttalk.png"></a>
+					<a href="#empteaness"><img title="Empteaness" alt="Empteaness Pixelart: A girl sitting in front of a white wall, polaroids floating over her." src="rsrc/img/px-empteaness.png"></a>
+					<a href="#brainactivitea"><img title="Brain Activitea" alt="Brain Activitea Pixelart: Vibrant triangles tracing along the sky." src="rsrc/img/px-brainactivitea.png"></a>
+					
+					<a href="#instabilitea" class="small"><img title="(in)stabilitea" alt="(in)stabilitea Pixelart: A couch in a blue office corridor, a purple vending machine and an alarm clock on a table." src="rsrc/img/px-instabilitea-48.png"></a>
+					
+<!-- 1. moving chair -->
+<!-- 2. redolence -->
+<!-- 3. tune in tonight -->
+					<a href="#humanitea" class="small"><img title="In Memory of Humanitea" alt="In Memory of Humanitea Pixelart: A big brutalist museum sectioned titled CULTURE with exhibits below." src="rsrc/img/px-humanitea.png"></a>
+					<a href="#thanatos" class="small"><img title="Thanatos" alt="Thanatos Pixelart: A gloomy classroom." src="rsrc/img/px-thanatos.png"></a>
+					
+					<a href="#leftbehind" class="small"><img title="what we left behind" alt="what we left behind Pixelart: Minimalist concrete shape with harsh lighting." src="rsrc/img/px-leftbehind.png"></a>
+<!-- 4. twisted gravitea -->
+<!-- 5. diversitea -->
+<!-- 6. thirstea -->
+					<a href="#whatisagame" class="small"><img title="What is a game? - An essay" alt="What is a game Pixelart: Lush grassland, trees and sandy mountains in the back." src="rsrc/img/px-whatisagame.png"></a>
+					
+					<a href="#shelter" class="small"><img title="Shelter" alt="Shelter Pixelart: Three doorframes, one showing a lightblue grand piano, a wine red staircase, and a green flipped room." src="rsrc/img/px-shelter.png"></a>
+<!-- 7. broom -->
+					<a href="#wakeup" class="small"><img title="Portal 2: Wake Up" alt="Portal 2: Wake Up Pixelart: An overgrown Portal 2 puzzle with a hard light bridge shooting through two portals." src="rsrc/img/px-wakeup.png"></a>
+				</div>
+				<span id="showall">show all projects.</span>
+			</section>
+			
+			<section class="acc-elem initial" id="tee">
+				<h2>The Elision Effect</h2>
+				<hr>
+				<div class="image-left">
+					<a href="rsrc/img/misc/tee-poster-l.png" title="The Elision Effect Poster"><picture>
+						<img src="rsrc/img/misc/tee-poster-s.webp" alt="Poster design. Elision Effect logo in a doorframe. A potted plant in a liminal office, an oldschool computer on a desk."/>
+					</picture></a>
+					<div>
+						<p>The last person finds themselves in an empty office. Not knowing what made everyone abandon these liminal spaces, they look for an exit.</p>
+						<p>The Elision Effect is a short surreal puzzle game. It's a spiritual successor to <a href="#instabilitea" class="highlighter">(in)stabilitea</a>.</p>
+						<p>You might be the last one in this office building. Empty halls and locked doors, but you keep trying to find ways to progress. The place seems off. Like it shouldn't exist. It smells of old coffee stains, the fluorescent lights buzzles, and corporate jazz plays on crappy speakers. You long for fresh air. An exit must be near.</p>
+					</div>
+				</div>
+				<a target="_blank" href="https://store.steampowered.com/app/2621420/The_Elision_Effect/" title="The Elision Effect Steam Page">Play on Steam</a> <a target="_blank" href="https://pizzapranks.itch.io/indiepocalypse-44" class="sec">Play in the Indiepocalypse</a> <a target="_blank" href="https://elisioneffect.com/kit" class="sec">Press kit</a>
+				<details>
+					<summary>&copy; Theia Bähr 2023</summary>
+					<p class="tags">puzzle, exploration, walking-simulator, experimental, surreal, atmospheric, office, liminal space, single player</p>
+				</details>
+				<div class="more first-more">
+					<a href="#donttalk" class="right" title="next project">Don&rsquo;t talk about it</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="donttalk">
+				<h2>Don&rsquo;t talk about it</h2>
+				<hr>
+				<small>&#9888;&#65039; Content Warning (spoiler): <span class="spoiler">Contains content dealing with depression and suicide</span></small>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/donttalk_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/donttalk_1.webp" alt="A gloomy dark corridor twisting space in impossible ways. A window casts volumetric rays into the room."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/donttalk_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/donttalk_2.webp" alt="An atmospheric subway station with brutalist concrete pillars, engulfed into green light. A train is passing."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/donttalk_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/donttalk_3.webp" alt="An unsafe bridge leading to a huge brutalist skyscraper. A door opens to a cozy apartment, a guy sitting on a couch."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/donttalk_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/donttalk_4.webp" alt="A guy staring in a cracked mirror with his face split along the cracks. Dark and moody, his eyes are censored."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>A five-minute-long interactive short story. It is about <mark class="robots-nocontent"><!--noindex--><!--googleoff: index-->something we don't talk about<!--googleon: index--><!--/noindex--></mark>. Not talking about it <mark class="robots-nocontent"><!--noindex--><!--googleoff: index-->you are not supposed to read this<!--googleon: index--><!--/noindex--></mark>. Created for the Map Labs competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/companion-piece-2/">Companion Piece 2</a>.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">narrative game, walking-simulator, short story game, meaningful choices, atmospheric, surreal, dark, adult, psychological horror, liminal space, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#tee" class="left" title="previous project">The Elision Effect</a>
+					<a href="#empteaness" class="right" title="next project">Empteaness</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="empteaness">
+				<h2>Empteaness</h2>
+				<hr>
+				<blockquote>
+					<p>Shadows settle on the place that you left<br>Our minds are troubled by the emptiness</p>
+				</blockquote>
+				<figcaption>—<a target="_blank" href="https://www.youtube.com/watch?v=2QT5eGHCJdE">Daughter, Youth</a></figcaption>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/empteaness_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/empteaness_1.webp" alt="A warm cluttered apartment with a girl laying on a couch."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/empteaness_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/empteaness_2.webp" alt="A surreal open entrance to a housing block. All lights are in an eerie off-red. A bicycle leans on the corridor inside."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/empteaness_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/empteaness_3.webp" alt="A surreal apartment block in red light. Burning silhouettes float against the grey sky. An old car under a black tree."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/empteaness_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/empteaness_4.webp" alt="A girl sitting in front of a white wall with floating polaroids blending into her silhouette. Next to her, a potted plant."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>An interactive short about moving out, inspired by the song Youth. Created for the Map Labs Competition <a target="_blank" href="https://www.moddb.com/mods/map-labs/downloads/atom-4-tune">TUNE</a> in 2 days, 3rd place out of 28.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">narrative game, walking-simulator, poetry game, short story game, atmospheric, liminal space, surreal, dark, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#donttalk" class="left" title="previous project">Don&rsquo;t talk about it</a>
+					<a href="#brainactivitea" class="right" title="next project">Brain Activitea</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="brainactivitea">
+				<h2>Brain Activitea</h2>
+				<hr>
+				<a target="_blank" href="https://qt6.de/b/w">4K wallpapers</a> <a target="_blank" href="https://www.youtube.com/watch?v=8TkyU3TvUfc" class="sec">watch here</a>
+				<blockquote>
+					<p>the world will repeat itself over the blank spaces [...]<br>Shards of colour paint themselves upon the void</p>
+				</blockquote>
+				<figcaption>—<a target="_blank" href="https://www.rockpapershotgun.com/screenshot-saturday-sundays-catwalks-in-the-desert-and-a-city-break-from-hell">RockPaperShotgun, Natalie Clayton</a></figcaption>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/brainactivitea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/brainactivitea_1.webp" alt="Vibrant shards paint themselves upon the void."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/brainactivitea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/brainactivitea_2.webp" alt="Luminous triangles trace colorful smears along the sky."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/brainactivitea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/brainactivitea_3.webp" alt="Distorted shapes in brilliant hues melt into the blank space."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/brainactivitea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/brainactivitea_4.webp" alt="A tangled mess of forms clutteres the vision, tracing beams everywhere."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/brainactivitea_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/brainactivitea_5.webp" alt="A graceful impression of triangular noise fills the radiant canvas with life."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>An (<a target="_blank" href="https://www.youtube.com/watch?v=8TkyU3TvUfc">audio</a>) visual experiment. Created for the Map Labs competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/eye-candy/">Eye Candy</a>.</p>
+				<small>&#9888;&#65039; Photosensitive epileptic seizures warning! A percentage of people may experience a seizure when exposed to certain visual images, including flashing lights or patterns that appear in videogames such as this, please refrain from use if susceptible.</small>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">psychedelic, audiovisual, art game, low-poly, experimental, colorful, calm, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#empteaness" class="left" title="previous project">Empteaness</a>
+					<a href="#instabilitea" class="right" title="next project">(in)stabilitea</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="instabilitea">
+				<h2>(in)stabilitea</h2>
+				<hr>
+				<blockquote>
+					<p>rooms collapse inwards upon themselves.<br>Broken, haunting, brilliant stuff.</p>
+				</blockquote>
+				<figcaption>—<a target="_blank" href="https://www.rockpapershotgun.com/screenshot-saturday-sundays-catwalks-in-the-desert-and-a-city-break-from-hell">RockPaperShotgun, Natalie Clayton</a></figcaption>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/instabilitea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/instabilitea_1.webp" alt="A gloomy warm office with a red vending machine, couch and door with a potted plant."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/instabilitea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/instabilitea_2.webp" alt="A cold moody office space, purple vending machine and a cryptic sign above the door. A red glow in a drawer."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/instabilitea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/instabilitea_3.webp" alt="A large purple conference room with a projector casting a presentation onto the wall."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/instabilitea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/instabilitea_4.webp" alt="An office with an miniature of building on a table. The floor reflects the glowing green vending machine."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/instabilitea_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/instabilitea_5.webp" alt="An emergency stairwell with biting-cold lights casting big flares."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>A short surreal puzzle adventure. You backtrack through a dreamy, mysterious retro-pixelated office. Created for the Map Labs competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/back-on-track/">Back on Track</a> in 4 days, second-best rated out of 19.</p>
+				<small>&#9888;&#65039; Photosensitive epileptic seizures warning! A percentage of people may experience a seizure when exposed to certain visual images, including flashing lights or patterns that appear in videogames such as this, please refrain from use if susceptible.</small>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020-2022</summary>
+					<p class="tags">puzzle, exploration, walking-simulator, experimental, surreal, atmospheric, office, liminal space, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#brainactivitea" class="left" title="previous project">Brain Activitea</a>
+					<a href="#movingchair" class="right" title="next project">do NOT touch a moving chair</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem unloaded" id="movingchair">
+			</section>
+			
+			<section class="acc-elem unloaded" id="redolence">
+			</section>
+			
+			<section class="acc-elem unloaded" id="tuneintonight">
+			</section>
+			
+			<section class="acc-elem" id="humanitea">
+				<h2>In Memory of Humanitea</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/humanitea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/humanitea_1.webp" alt="Two human replicas. Next to the exhibit a sarcastic description of humanity as arrogant inventors."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/humanitea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/humanitea_2.webp" alt="A replica of a tree at the top of a spiral staircase, described as an extinct species."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/humanitea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/humanitea_3.webp" alt="Surreal white architecture with a helicopter hanging from the ceiling, described as a pitiful attempt to overcome gravity."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/humanitea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/humanitea_4.webp" alt="A big brutalist exhibit room titled CULTURE. Below are exhibits like a humanoid submerged in a blue liquid."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/humanitea_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/humanitea_5.webp" alt="A dark room with a glowing replica of the milky way on the ceiling. In the center is a golden disc."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<blockquote>
+					<p>nailed the "condescending alien asshole" vibe</p>
+				</blockquote>
+				<figcaption>—YouTube Comment</figcaption>
+				<p>A satirical exhibition about the extinct homo sapiens. Made a lot of people upset (sorry). I have since replaced my climate-anxiety-induced edgy misantrophy with class consciousness (<a target="_blank" href="https://en.wikipedia.org/wiki/How_to_Blow_Up_a_Pipeline#:~:text=an%20eminently%20understandable%20emotional%20response">and you should too</a>). Created for the Map Labs competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/eye-candy/">Eye Candy</a>.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">narrative game, ludic essay, art game, exhibit, exploration, atmospheric, satire, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#tuneintonight" class="left" title="previous project">Tune In Tonight</a>
+					<a href="#thanatos" class="right" title="next project">Thanatos</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="thanatos">
+				<h2>Thanatos</h2>
+				<hr>
+				<p>A short appendix to <a href="#donttalk" class="highlighter">Don&rsquo;t talk about it</a>.</p>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/thanatos_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thanatos_1.webp" alt="Light spots centered on a sand castle pyramid with a playground swing behind. An intensely orange sky. A sparse tree."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/thanatos_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/thanatos_2.webp" alt="A gloomy classroom. The vast windows show a surreal vibrant outside. Something is written on the black board."></a>
+				   </div>
+				   <button aria-label="Previous" class="gl-prev"></button>
+				   <button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>Made in ~16h together with <a target="_blank" href="https://twitter.com/matt71490">Matt Hustead</a>.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<detilas>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">short story game, narrative game, atmospheric, surreal, walking-simulator, liminal space, art game, single player, free-to-play</p>
+				</detilas>
+				<div class="more">
+					<a href="#humanitea" class="left" title="previous project">In Memory of Humanitea</a>
+					<a href="#leftbehind" class="right" title="next project">what we left behind</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="leftbehind">
+				<h2>what we left behind</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/leftbehind_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/leftbehind_1.webp" alt="A minimalist concrete shaped room with harsh lighting."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/leftbehind_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/leftbehind_2.webp" alt="A staircase leading to a glowing white doorframe, which casts light into this desolate room."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/leftbehind_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/leftbehind_3.webp" alt="A spiral staircase going far down over a black abyss. One side is dangerously missing a railing."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/leftbehind_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/leftbehind_4.webp" alt="A wide open courtyard in simple brutalist shapes, a square-pipe leads down and has a bit debris sprinkled below."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/leftbehind_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/leftbehind_5.webp" alt="A room flipped on the side, framed with huge concrete blocks, with staircases leading up to the ceiling."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>Alone in strange architecture. A short walking simulator playing with aspect ratio. Created for the Map Labs competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/cromulentville-2-map-labs-test-tube-7/">CromulentVille 2</a>.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2020</summary>
+					<p class="tags">walking-simulator, brutalist, architectural, atmospheric, surreal, liminal space, art game, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#thanatos" class="left" title="previous project">Thanatos</a>
+					<a href="#twistedgravitea" class="right" title="next project">twisted_gravitea_</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem unloaded" id="twistedgravitea">
+			</section>
+			
+			<section class="acc-elem unloaded" id="diversitea">
+			</section>
+			
+			<section class="acc-elem unloaded" id="thirstea">
+			</section>
+			
+			<section class="acc-elem" id="whatisagame">
+				<h2>What is a game? - An essay</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/whatisagame_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/whatisagame_1.webp" alt="Lush grassland, trees and sandy mountains in the back."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/whatisagame_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/whatisagame_2.webp" alt="A hallways opening up to an elevator with a choice: up or down?"></a>
+						<a target="_blank" href="https://cdn.teamakes.games/whatisagame_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/whatisagame_3.webp" alt="An exhibit space, a large spiral staircase and some big frames showcasing various different game genres behind."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>An interactive essay analyzing the concept of a video game. It starts with nothing and gradually adds video game aspects until you could call it a game.</p>
+				<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1677927405">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2019</summary>
+					<p class="tags">narrative game, ludic essay, art game, exhibit, exploration, educational, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#thirstea" class="left" title="previous project">Thirstea</a>
+					<a href="#shelter" class="right" title="next project">Shelter</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="shelter">
+				<h2>Shelter</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/shelter_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/shelter_1.webp" alt="A fancy modern lit bar in red light, with wine on the shelf and a counter."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/shelter_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/shelter_2.webp" alt="A puzzle showing flipped room and a walkway. Light casts into the room, which is floating in a green void."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/shelter_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/shelter_3.webp" alt="Three doorframes in front of a blue-grey void."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>Enter a world of floating, confusing and broken dreams. An atmospheric puzzle adventure.</p>
+				<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=828214231">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2016</summary>
+					<p class="tags">walking-simulator, art game, exploration, surreal, atmospheric,  liminal space, narrative game, puzzle, educational, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#whatisagame" class="left" title="previous project">What is a game? - An essay</a>
+					<a href="#broomcloset" class="right" title="next project">Stuck in the Broom Closet</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem unloaded" id="broomcloset">
+			</section>
+			
+			<section class="acc-elem" id="wakeup">
+				<h2>Portal 2: Wake Up</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/wakeup_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/wakeup_1.webp" alt="An overgrown Portal 2 puzzle with a hard light bridge shooting through two portals over a muddy water pit."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/wakeup_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/wakeup_2.webp" alt="Another sunlit overgrown puzzle room with a emancipation grid and a cube tunnel above. A reflection cube."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/wakeup_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/wakeup_3.webp" alt="A hard light bridge over a pit. A button leads a wire to the exit door. Some tiles are missing in the clean metal wall."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/wakeup_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/wakeup_4.webp" alt="A catwalk in Aperture Science BTS. Light blue fog, and mechanical arms holding up structures with metal beams."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<blockquote>
+					<p>Pretty good, fun to play.</p>
+				</blockquote>
+				<figcaption>—Anna Mieke, Prism Game Studios</figcaption>
+				<p>A Portal 2 mod that puts you in the shoes of a new test subject named Suki. The mod works with the testing elements from Portal 2 and has some puzzles in new settings. It is about half an hour long and was created together with <a target="_blank" href="https://twitter.com/SquishyFizzy">Lily</a>, our first proper modding experience.</p>
+				<a target="_blank" href="https://www.moddb.com/mods/portal-2-wake-up/downloads/wake-up-release-version-2">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr &amp; <a target="_blank" href="https://www.artstation.com/nicip">Lily Posse</a> 2016</summary>
+					<p class="tags">puzzle, portal 2 mod, platformer, action-adventure, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#broomcloset" class="left" title="previous project">Stuck in the Broom Closet</a>
+					<a href="#sutsuru" class="right" title="next project">Sutsuru</a>
+				</div>
+			</section>
+			
+			<section class="acc-elem" id="sutsuru">
+				<h2>Sutsuru</h2>
+				<hr>
+				<p>A small 3D simulation of an office. You can walk around and discover hidden treats. Created together with <a target="_blank" href="https://twitter.com/SquishyFizzy">Lily</a>, first time we dipped our toes in 3d game development.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/sutsuru">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr &amp; <a target="_blank" href="https://www.artstation.com/nicip">Lily Posse</a> 2015</summary>
+					<p class="tags">exploration, liminal space, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#wakeup" class="left" title="previous project">Portal 2: Wake Up</a>
+				</div>
+			</section>
+			
+			<footer>
+				<p>made with &#128156;<br>
+					<a href="legal.html">legal</a> - <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">BY-NC-SA</a> - <a href="links.html">friends</a><br>
+				&copy; Theia Bähr 2024</p>
+			</footer>
+		</main>
+		
+		<div id="toast"></div>
+		
+		<script src="rsrc/js/scripts.min.js?v=010724" async></script>
+		<!-- Cloudflare Web Analytics --><script async src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7ba29ff8bb0f43a5b13c901c1dde9885"}'></script><!-- End Cloudflare Web Analytics -->
+	</body>
+</html>

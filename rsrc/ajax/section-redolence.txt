@@ -1,0 +1,20 @@
+				<h2>Redolence</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<a target="_blank" href="https://cdn.teamakes.games/redolence_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/redolence_1.webp" alt="A shiny elevator door in a fancy blue-wallpapered hotel. A window fills the room with a soft gentle glow."/></a>
+				</div>
+				<blockquote>
+					<p>this map has you truly face the reality of elevator travel in the modern age</p>
+				</blockquote>
+				<figcaption>—Weyland</figcaption>
+				<p>Created for the Map Labs Competition <a target="_blank" href="https://www.runthinkshootlive.com/posts/atom-week-map-labs-atoms-6-10-featuring-ascentville-and-elevatorville-2/">ElevatorVille 2</a> in 2 days.</p>
+				<a target="_blank" href="https://www.moddb.com/mods/map-labs/downloads/atom-week">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2021</summary>
+					<p class="tags">humour, short, poetry game, walking-simulator, narrative game,  liminal space, satire, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#movingchair" class="left" title="previous project">do NOT touch a moving chair</a>
+					<a href="#tuneintonight" class="right" title="next project">Tune In Tonight</a>
+				</div>

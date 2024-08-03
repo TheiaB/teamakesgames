@@ -1,0 +1,28 @@
+				<h2>twisted_gravitea_</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/twistedgravitea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/twistedgravitea_1.webp" alt="A puzzle room with a staircase leading to the exit. Glowing green lines. "></a>
+						<a target="_blank" href="https://cdn.teamakes.games/twistedgravitea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/twistedgravitea_2.webp" alt="Two vast green monolithic light stripes, casting lines across a geometric minimalist room."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/twistedgravitea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/twistedgravitea_3.webp" alt="A closed door with green lines leading away from it. The two light stripes cast green shapes into the room."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/twistedgravitea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/twistedgravitea_4.webp" alt="A staircase embedded into the floor, and the two vast light stripes embedding the room in green."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/twistedgravitea_5.png" title="View full image"><img loading="lazy" src="rsrc/img/games/twistedgravitea_5.webp" alt="Geometric green glowing shapes and lines."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<blockquote>
+					<p>This level sends players on a stroll across the floors, walls, ceilings, and in-betweens of this abstract, Portal-like course.</p>
+				</blockquote>
+				<figcaption>—<a target="_blank" href="https://www.moddb.com/mods/map-labs/news/test-tube-5-blockout-results">Map Labs</a></figcaption>
+				<p>Created for the Map Labs Competition <a target="_blank" href="https://www.moddb.com/mods/map-labs/downloads/test-tube-5-blockout">Blockout</a> in 3 days, 2nd place out of 13.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2019</summary>
+					<p class="tags">puzzle game, gravity, atmospheric, experimental,  liminal space, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#leftbehind" class="left" title="previous project">what we left behind</a>
+					<a href="#diversitea" class="right" title="next project">Diversitea</a>
+				</div>

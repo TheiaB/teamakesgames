@@ -1,0 +1,19 @@
+User-Agent: PerplexityBot
+Disallow: /
+
+User-Agent: Google-Extended
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-Agent: *
+Allow: /
+Disallow: /rsrc/slider/*
+Disallow: /legal/
+Disallow: /legal.html
+
+Sitemap: https://teamakes.games/sitemap.xml

@@ -1,0 +1,19 @@
+				<h2>Stuck in the Broom Closet</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<a target="_blank" href="https://cdn.teamakes.games/stuckinthebroomcloset_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/stuckinthebroomcloset_1.webp" alt="A Portal styled office with a cluttered desk. A glowing red button on the side."/></a>
+				</div>
+				<blockquote>
+					<p>I can't get out</p>
+				</blockquote>
+				<figcaption>—a player</figcaption>
+				<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=676120890">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2016</summary>
+					<p class="tags">satire, humour, short story game, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#shelter" class="left" title="previous project">Shelter</a>
+					<a href="#wakeup" class="right" title="next project">Portal 2: Wake Up</a>
+				</div>

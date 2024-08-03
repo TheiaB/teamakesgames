@@ -1,0 +1,26 @@
+
+				<div class="project-grid acc-nav">
+					<a href="#tee"><img title="The Elision Effect" alt="The Elision Effect Pixelart: A potted plant in a liminal office." src="rsrc/img/px-elisioneffect.png"></a>
+					
+					<a href="#donttalk"><img title="Don't talk about it" alt="Don't talk about it Pixelart: A guy staring in a cracked mirror, censored eyes." src="rsrc/img/px-donttalk.png"></a>
+					<a href="#empteaness"><img title="Empteaness" alt="Empteaness Pixelart: A girl sitting in front of a white wall, polaroids floating over her." src="rsrc/img/px-empteaness.png"></a>
+					<a href="#brainactivitea"><img title="Brain Activitea" alt="Brain Activitea Pixelart: Vibrant triangles tracing along the sky." src="rsrc/img/px-brainactivitea.png"></a>
+					
+					<a href="#instabilitea" class="small"><img title="(in)stabilitea" alt="(in)stabilitea Pixelart: A couch in a blue office corridor, a purple vending machine and an alarm clock on a table." src="rsrc/img/px-instabilitea-48.png"></a>
+					
+					<a href="#movingchair" class="small"><img title="do NOT touch a moving chair" alt="do NOT touch a moving chair Pixelart: A misty backyard with glowing red and orange windows." src="rsrc/img/px-movingchair.png"></a>
+					<a href="#redolence" class="small"><img title="Redolence" alt="Redolence Pixelart: A door in a moody blue motel corridor." src="rsrc/img/px-redolence.png"></a>
+					<a href="#tuneintonight" class="small"><img title="Tune In Tonight" alt="Tune In Tonight Pixelart: A grand piano on a stage, red curtains." src="rsrc/img/px-tuneintonight.png"></a>
+					<a href="#humanitea" class="small"><img title="In Memory of Humanitea" alt="In Memory of Humanitea Pixelart: A big brutalist museum sectioned titled CULTURE with exhibits below." src="rsrc/img/px-humanitea.png"></a>
+					<a href="#thanatos" class="small"><img title="Thanatos" alt="Thanatos Pixelart: A gloomy classroom." src="rsrc/img/px-thanatos.png"></a>
+					
+					<a href="#leftbehind" class="small"><img title="what we left behind" alt="what we left behind Pixelart: Minimalist concrete shape with harsh lighting." src="rsrc/img/px-leftbehind.png"></a>
+					<a href="#twistedgravitea" class="small"><img title="twisted_gravitea_" alt="twisted_gravitea_ Pixelart: A geometric room with staircases flooded in green light." src="rsrc/img/px-twistedgravitea.png"></a>
+					<a href="#diversitea" class="small"><img title="Diversitea" alt="Diversitea Pixelart: A closeup of an apartment, showing a couch, radiator and potted plants." src="rsrc/img/px-diversitea.png"></a>
+					<a href="#thirstea" class="small"><img title="Thirstea" alt="Thirstea Pixelart: A skewed futuristic corridor with a dark door at the end." src="rsrc/img/px-thirstea.png"></a>
+					<a href="#whatisagame" class="small"><img title="What is a game? - An essay" alt="What is a game Pixelart: Lush grassland, trees and sandy mountains in the back." src="rsrc/img/px-whatisagame.png"></a>
+					
+					<a href="#shelter" class="small"><img title="Shelter" alt="Shelter Pixelart: Three doorframes, one showing a lightblue grand piano, a wine red staircase, and a green flipped room." src="rsrc/img/px-shelter.png"></a>
+					<a href="#broomcloset" class="small"><img title="Stuck in the Broom Closet" alt="Stuck in the Broom Closet Pixelart: A Portal styled office with a cluttered desk." src="rsrc/img/px-broomcloset.png"></a>
+					<a href="#wakeup" class="small"><img title="Portal 2: Wake Up" alt="Portal 2: Wake Up Pixelart: An overgrown Portal 2 puzzle with a hard light bridge shooting through two portals." src="rsrc/img/px-wakeup.png"></a>
+				</div>

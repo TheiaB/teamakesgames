@@ -1,0 +1,23 @@
+				<h2>Diversitea</h2>
+				<hr>
+				<div class="share"><span onclick="share(this);return false" title="share this project URL"></span></div>
+				<div class="slider-container">
+					<div>
+						<a target="_blank" href="https://cdn.teamakes.games/diversitea_1.png" title="View full image"><img loading="lazy" src="rsrc/img/games/diversitea_1.webp" alt="A dark room at night, bare furniture."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/diversitea_2.png" title="View full image"><img loading="lazy" src="rsrc/img/games/diversitea_2.webp" alt="A concrete furniture store with an alien behind the counter."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/diversitea_3.png" title="View full image"><img loading="lazy" src="rsrc/img/games/diversitea_3.webp" alt="Many different plants displayed on tables in a interior with cloud-wallpaper and grass floor."></a>
+						<a target="_blank" href="https://cdn.teamakes.games/diversitea_4.png" title="View full image"><img loading="lazy" src="rsrc/img/games/diversitea_4.webp" alt="A fully furnished and detailed room. A couch, potted plants, and picture frames."></a>
+					</div>
+					<button aria-label="Previous" class="gl-prev"></button>
+					<button aria-label="Next" class="gl-next"></button>
+				</div>
+				<p>You just moved in, get to furnishing. An interactive short about moving in. Featuring lots of <a target="_blank" href="https://www.youtube.com/watch?v=DFAa1JnwIhY&list=OLAK5uy_k6AXZx0AvGypYc706x1MYk_4fYjOlwPQc">cool jazz music</a> by Thomas Brach and Nils Wogram. Created for the Map Labs Competition <a target="_blank" href="https://www.moddb.com/mods/map-labs/downloads/test-tube-4-1000000000-units">1,000,000,000 Units</a>.</p>
+				<a target="_blank" href="https://teamakesgames.itch.io/ep" title="Download page for the game collection called Extended Playabilitea">Play here</a>
+				<details>
+					<summary>&copy; Theia Bähr 2019</summary>
+					<p class="tags">short story game, humour, satire, single player, free-to-play</p>
+				</details>
+				<div class="more">
+					<a href="#twistedgravitea" class="left" title="previous project">twisted_gravitea_</a>
+					<a href="#thirstea" class="right" title="next project">Thirstea</a>
+				</div>
